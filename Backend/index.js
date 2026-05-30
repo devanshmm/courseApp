@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 const {userRouter} = require("./routes/user.js");
 const {courseRouter} = require('./routes/course');
-const {adminRoutes} = require('./routes/admin.js');
+const adminRoutes = require('./routes/admin.js');
 const port = 3000
 
 app.use('/api/user', userRouter);
