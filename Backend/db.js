@@ -1,9 +1,12 @@
 
 //import mongoose, { Types } from "mongoose";
+
+//import mongoose from 'mongoose';
+
 //import mongoose from "mongoose";
-const mongoose = require('mongoose');
+const  mongoose = require('mongoose');
 console.log('mongoos Connected');
-mongoose.connect("mongodb+srv://devanshm511_db_user:7D79wgXyqpsN6IRx@cluster0.alyect3.mongodb.net/course-App")
+
 const {Schema} = mongoose; 
 
 const userSchema  = new Schema({
@@ -40,5 +43,6 @@ module.exports = {
     user_schema,
     admin_schema,
     course_schema,
-    purchased_schema
+    purchased_schema,
+    mongoose
  };
