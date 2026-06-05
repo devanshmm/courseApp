@@ -3,7 +3,9 @@ const { admin_schema } = require('../db');
 
 const adminRoutes = Router(); 
 
-adminRoutes.post('/signup',(req , res)=>{
+
+
+adminRoutes.post('/signup',(req , res )=>{
     res.json({
         message: "User signed up successfully"
     })

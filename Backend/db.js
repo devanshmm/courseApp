@@ -5,7 +5,7 @@
 
 //import mongoose from "mongoose";
 const  mongoose = require('mongoose');
-console.log('mongoos Connected');
+console.log('DB route');
 
 const {Schema} = mongoose; 
 
