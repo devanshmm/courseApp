@@ -10,7 +10,7 @@ console.log('DB route');
 const {Schema} = mongoose; 
 
 const userSchema  = new Schema({
-    email : {type : String , unique: true},
+    email : {type : String},
     password : String, 
     firstName :String, 
     lastName : String
